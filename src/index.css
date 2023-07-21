@@ -9,6 +9,6 @@
         @apply m-0 p-0 box-border;
     }
     body {
-        @apply font-spartan text-xs;
+        @apply font-spartan text-sm;
     }
 }
