@@ -6,9 +6,9 @@ const About = () => {
             <aside>
                 <img src={aboutDark} alt="coffee table and chair" />
             </aside>
-            <article className="my-10 lg:my-0 lg:w-2/3 lg:max-w-[400px] lg:px-4 min-[1290px]:px-0">
+            <article className="my-10 lg:my-0 lg:w-3/6 lg:max-w-[500px] lg:px-6 min-[1370px]:px-0">
                 <h1 className="tracking-[3px] font-bold uppercase mb-4">about our furniture</h1>
-                <p className="text-gray">
+                <p className="text-gray font-medium">
                     Our multifunctional collection blends design and function to suit your indivdual
                     taste. Make each room unique, or pick a cohesive theme that best express your
                     interests and what inspires you. Find the furniture pieces you need, from
