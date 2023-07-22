@@ -9,12 +9,14 @@ const CarouselButtons = () => {
                 onClick={() => swiper.slidePrev()}
                 className="w-full h-full flex justify-center items-center"
             >
+                <span className="hidden">prev</span>
                 <img src={arrowLeft} alt="" className="w-50 h-50" />
             </button>
             <button
                 onClick={() => swiper.slideNext()}
                 className="w-full h-full flex justify-evenly items-center"
             >
+                <span className="hidden">next</span>
                 <img src={arrowRight} alt="" className="w-50 h-50" />
             </button>
         </section>
