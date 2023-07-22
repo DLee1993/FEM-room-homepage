@@ -4,17 +4,17 @@ import arrowRight from "../../images/icon-angle-right.svg";
 const CarouselButtons = () => {
     const swiper = useSwiper();
     return (
-        <section className="absolute top-[42.5%] sm:top-[56%] lg:top-auto lg:bottom-0 right-0 lg:left-[60%] min-[1440px]:left-[58%] z-50 bg-black w-[90px] min-[1070px]:w-[100px] min-[1150px]:w-[110px] min-[1200px]:w-[116px] min-[1400px]:w-[165px] h-[50px] min-[1400px]:h-[70px] flex justify-evenly items-center">
+        <section className="bg-black w-[150px] h-[70px] flex justify-evenly items-center absolute z-50 bottom-[50.7%] translate-y-1/2 right-0 md:top-auto md:bottom-0 md:left-[50%] md:translate-y-0">
             <button
                 onClick={() => swiper.slidePrev()}
-                className="w-full h-full flex justify-center items-center"
+                className="w-full h-full flex justify-center items-center hover:bg-gray/50"
             >
                 <span className="sr-only">prev</span>
                 <img src={arrowLeft} alt="" className="w-50 h-50" />
             </button>
             <button
                 onClick={() => swiper.slideNext()}
-                className="w-full h-full flex justify-evenly items-center"
+                className="w-full h-full flex justify-evenly items-center hover:bg-gray/50"
             >
                 <span className="sr-only">next</span>
                 <img src={arrowRight} alt="" className="w-50 h-50" />
