@@ -5,6 +5,7 @@ const CarouselButtons = () => {
     const swiper = useSwiper();
     return (
         <section className="bg-black w-[150px] h-[70px] flex justify-evenly items-center absolute z-50 bottom-[50.7%] translate-y-1/2 right-0 md:top-auto md:bottom-0 md:left-[50%] md:translate-y-0">
+            <h2 className="sr-only">slider buttons</h2>
             <button
                 onClick={() => swiper.slidePrev()}
                 className="w-full h-full flex justify-center items-center hover:bg-gray/50"

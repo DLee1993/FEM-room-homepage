@@ -22,6 +22,7 @@ const Carousel = () => {
             >
                 <SwiperSlide className="md:flex">
                     <section className="md:w-1/2">
+                        <h2 className="sr-only">slide images</h2>
                         <img
                             src={slide1Desktop}
                             alt="white and wood table dining table set"
@@ -53,6 +54,7 @@ const Carousel = () => {
                 </SwiperSlide>
                 <SwiperSlide className="md:flex">
                     <section className="md:w-1/2">
+                        <h2 className="sr-only">slide images</h2>
                         <img
                             src={slide2Desktop}
                             alt="white and wood table dining table set"
@@ -65,9 +67,9 @@ const Carousel = () => {
                         />
                     </section>
                     <section className="md:w-1/2 flex justify-center items-start flex-col px-2 md:px-5 py-10 md:py-0">
-                        <h1 className="text-3xl xl:text-4xl max-w-[400px] font-bold">
+                        <h2 className="text-3xl xl:text-4xl max-w-[400px] font-bold">
                             We are available all across the globe
-                        </h1>
+                        </h2>
                         <p className="my-6 md:my-14 text-gray md:max-w-[600px]">
                             With stores all over the world, it`s easy for you to find furniture for
                             your home or place of business. Locally, we`re in most major cities
@@ -84,6 +86,7 @@ const Carousel = () => {
                 </SwiperSlide>
                 <SwiperSlide className="md:flex">
                     <section className="md:w-1/2">
+                        <h2 className="sr-only">slide images</h2>
                         <img
                             src={slide3Desktop}
                             alt="white and wood table dining table set"
@@ -96,9 +99,9 @@ const Carousel = () => {
                         />
                     </section>
                     <section className="md:w-1/2 flex justify-center items-start flex-col px-2 md:px-5 py-10 md:py-0">
-                        <h1 className="text-3xl xl:text-4xl max-w-[400px] font-bold">
+                        <h2 className="text-3xl xl:text-4xl max-w-[400px] font-bold">
                             Manufactured with the best materials
-                        </h1>
+                        </h2>
                         <p className="my-6 md:my-14 text-gray md:max-w-[600px]">
                             Our modern furniture store provide a high level of quality. Our company
                             has invested in advanced technology to ensure that every product is made

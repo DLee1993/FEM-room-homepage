@@ -21,6 +21,7 @@ const Header = () => {
                         : "absolute z-50 top-0 md:left-10 w-full h-24 hidden md:flex justify-start items-center md:text-white bg-white md:bg-transparent"
                 }
             >
+                <h2 className="sr-only">header navigation</h2>
                 <ul className="flex justify-between items-center font-semibold w-full md:w-[350px] px-5 md:px-0">
                     <li>
                         <img src={logo} alt="company logo" className="hidden md:block" />
@@ -37,8 +38,12 @@ const Header = () => {
                     <li className="cursor-pointer relative before:w-0 hover:before:absolute hover:before:bottom-0 hover:before:right-0 hover:before:w-[20px] hover:before:h-0.5 hover:before:bg-white">
                         shop
                     </li>
-                    <li className="cursor-pointer relative before:w-0 hover:before:absolute hover:before:bottom-0 hover:before:right-0 hover:before:w-[20px] hover:before:h-0.5 hover:before:bg-white">about</li>
-                    <li className="cursor-pointer relative before:w-0 hover:before:absolute hover:before:bottom-0 hover:before:right-0 hover:before:w-[20px] hover:before:h-0.5 hover:before:bg-white">contact</li>
+                    <li className="cursor-pointer relative before:w-0 hover:before:absolute hover:before:bottom-0 hover:before:right-0 hover:before:w-[20px] hover:before:h-0.5 hover:before:bg-white">
+                        about
+                    </li>
+                    <li className="cursor-pointer relative before:w-0 hover:before:absolute hover:before:bottom-0 hover:before:right-0 hover:before:w-[20px] hover:before:h-0.5 hover:before:bg-white">
+                        contact
+                    </li>
                 </ul>
             </section>
         </header>
